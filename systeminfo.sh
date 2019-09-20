@@ -1,11 +1,7 @@
 #to show the disk usage, show the uptime on the system, and show the users that are logged into
-
 #the system. it will display "Goodbye!" just before the script exits.
-
 #will get "Invalid option." if the user enters anything other than 1, 2, 3, or q.
 #!/bin/bash
-
-
 
 #Using colors to print
 
@@ -35,7 +31,7 @@
 
 menu() {
 
-echo -e  "${B}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
+echo -e  "${C}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
 
 echo "~~~~~~~~~~~~~~~~~ M E N U ~~~~~~~~~~~~~~~~"
 
