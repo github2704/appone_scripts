@@ -2,9 +2,7 @@
 #the system. it will display "Goodbye!" just before the script exits.
 #will get "Invalid option." if the user enters anything other than 1, 2, 3, or q.
 #!/bin/bash
-
 #Using colors to print
-
  # regular colors
 
     K="\033[0;30m"    # black
@@ -31,7 +29,7 @@
 
 menu() {
 
-echo -e  "${C}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
+echo -e  "${W}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"	
 
 echo "~~~~~~~~~~~~~~~~~ M E N U ~~~~~~~~~~~~~~~~"
 
